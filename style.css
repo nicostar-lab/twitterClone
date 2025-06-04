@@ -1,15 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   height: 100vh;
   background-color: #000;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 span {
   color: #adadad70;
 }
 .Aqui {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }

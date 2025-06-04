@@ -2,7 +2,7 @@ body {
   background-color: #000;
 }
 .Aqui {
-  max-width: 600px;
+  max-width: 37.5rem;
   height: 100vh;
   background-color: #000;
   color: #fff;
@@ -10,14 +10,21 @@ body {
   overflow-x: hidden;
   border: 0.1px solid #ffffff81;
 }
+.Aqui {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.Aqui::-webkit-scrollbar {
+  display: none;
+}
 .btn {
   display: flex;
   justify-content: space-around;
   position: fixed;
   top: 0;
   left: 5;
-  width: 600px;
-  height: 50px;
+  width: 37.5rem;
+  height: 3.125rem;
   z-index: 1;
   background-color: #00000057;
   backdrop-filter: blur(10px);
@@ -29,7 +36,7 @@ body {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  height: 50px;
+  height: 3.125rem;
   cursor: pointer;
   width: 50%;
   transition: 0.2s ease-in-out;
@@ -69,8 +76,8 @@ body {
   background-color: #1a1919bb;
 }
 .pub img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 
@@ -91,8 +98,8 @@ body {
   gap: 10px;
 }
 .pub2 img {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   cursor: pointer;
 }
 .pub2 button {
@@ -101,7 +108,7 @@ body {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  width: 70px;
+  width: 4.375rem;
   border-radius: 50px;
   transition: 0.2s ease-in-out;
 }
@@ -114,8 +121,8 @@ body {
 }
 
 .profileA {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 .tweet {
@@ -144,8 +151,8 @@ body {
 }
 
 .post {
-  height: 300px;
-  max-width: 500px;
+  height: 18.75rem;
+  max-width: 31.25rem;
   border: 0.1px solid #ffffff70;
   border-radius: 25px;
   margin-top: 10px;
@@ -162,7 +169,7 @@ body {
 }
 
 .actions img {
-  height: 20px;
-  width: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
   cursor: pointer;
 }
